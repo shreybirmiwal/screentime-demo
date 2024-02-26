@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		004C086F2A66D19B00F012CF /* ScreenTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004C086E2A66D19B00F012CF /* ScreenTimeApp.swift */; };
-		004C08712A66D19B00F012CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004C08702A66D19B00F012CF /* ContentView.swift */; };
 		004C08732A66D19C00F012CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 004C08722A66D19C00F012CF /* Assets.xcassets */; };
 		004C08762A66D19C00F012CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 004C08752A66D19C00F012CF /* Preview Assets.xcassets */; };
 		004C08832A66D25B00F012CF /* ReportExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004C08822A66D25B00F012CF /* ReportExtension.swift */; };
@@ -45,7 +44,6 @@
 /* Begin PBXFileReference section */
 		004C086B2A66D19B00F012CF /* ScreenTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		004C086E2A66D19B00F012CF /* ScreenTimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTimeApp.swift; sourceTree = "<group>"; };
-		004C08702A66D19B00F012CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		004C08722A66D19C00F012CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		004C08752A66D19C00F012CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		004C08802A66D25B00F012CF /* ReportExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.extensionkit-extension"; includeInIndex = 0; path = ReportExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,7 +97,6 @@
 			children = (
 				004C08912A66D29000F012CF /* ScreenTime.entitlements */,
 				004C086E2A66D19B00F012CF /* ScreenTimeApp.swift */,
-				004C08702A66D19B00F012CF /* ContentView.swift */,
 				004C08722A66D19C00F012CF /* Assets.xcassets */,
 				004C08742A66D19C00F012CF /* Preview Content */,
 			);
@@ -227,7 +224,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				004C08712A66D19B00F012CF /* ContentView.swift in Sources */,
 				004C086F2A66D19B00F012CF /* ScreenTimeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
